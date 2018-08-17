@@ -5,7 +5,7 @@ Bash scripts for querying Palo Alto Wildfire API
 
 ### Recommended Usage
 ```
-./get-report.sh api.conf <hash>
+./get-report.sh api.conf <hash> > report.pdf
 ./get-verdict.sh api.conf <hash>
 ./get-verdicts.sh api.conf <hashlist-file>
 ./submit-file.sh api.conf <sample-file>
