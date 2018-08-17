@@ -1,0 +1,9 @@
+0 : benign
+1 : malware
+2 : grayware
+-100 : pending, the sample exists, but there is currently no verdict
+-101 : error
+-102 : unknown, cannot find sample record in the database
+-103 : invalid hash value
+
+When sending an invalid hash value, an HTTP 421 status is returned.
