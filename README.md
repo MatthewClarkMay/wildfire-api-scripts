@@ -23,4 +23,5 @@ Bash scripts for querying Palo Alto Wildfire API
 - -101 : error
 - -102 : unknown, cannot find sample record in the database
 - -103 : invalid hash value  
+
 NOTE: When sending an invalid hash value, an HTTP 421 status is returned.
