@@ -5,10 +5,10 @@ Bash scripts for querying Palo Alto Wildfire API
 
 ### Recommended Usage
 ```
-./submit-file.sh api.conf $sample_file
-./get-verdict.sh api.conf $hash
-./get-verdicts.sh api.conf $hash_file
-./get-report.sh api.conf $hash > report.pdf
+./lib/submit-file.sh api.conf $sample_file
+./lib/get-verdict.sh api.conf $hash
+./lib/get-verdicts.sh api.conf $hash_file
+./lib/get-report.sh api.conf $hash > report.pdf
 ```
 ### Notes
 - Hashes must be MD5 or SHA256   
